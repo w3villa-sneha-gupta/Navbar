@@ -1,0 +1,82 @@
+
+.wrapper{
+    margin:auto;
+    max-width:1140px;
+}
+
+.navbar{
+    height:60px;
+    border:0 0 0 0 black solid;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+    background-color: grey;
+    
+
+    
+}
+
+
+
+
+.logo img{
+    height:100%;
+    width:70px;
+}
+
+
+.content{
+    display: flex;
+    gap:5px
+
+
+
+}
+
+.mobile{
+    display:none;
+}
+
+.mobile img{
+
+    height:100%;
+    width:60px;
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:765px){
+
+    .mobile{
+
+    
+        display:block;
+    
+    }
+
+.content{
+    display:none;
+    
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
